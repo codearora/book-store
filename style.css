@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+    /* Changed to display items in a vertical column */
+    gap: 10px;
+    /* Added gap between items */
+}
+
+.book-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-item:hover {
+    background-color: #e0e0e0;
+}
+
+.book-details {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.book-details h2 {
+    margin-top: 0;
+}
